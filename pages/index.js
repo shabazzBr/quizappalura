@@ -4,12 +4,12 @@ import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
 import QuizBackground from '../src/components/QuizBackground';
 import db from "../db.json";
-import { useRouter } from "next/router";
+import React from "react";
 
-const Title = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.primary};
-`;
+// const Title = styled.h1`
+//   font-size: 50px;
+//   color: ${({ theme }) => theme.colors.primary};
+// `;
 
 
 // const BackgroundImage = styled.div`
@@ -37,6 +37,7 @@ const QuizContainer = styled.div`
 export default function Home() {
   return (
     <>
+
       <QuizBackground backgroundImage={db.bg}> 
         <QuizContainer>
           <Widget>
