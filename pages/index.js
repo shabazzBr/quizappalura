@@ -9,7 +9,7 @@ import db from "../db.json";
 import React, { useState } from "react";
 import Input from "../src/components/Input";
 import Button from '../src/components/Button';
-
+import QuizLogo from '../src/components/QuizLogo';
 
 // const QuizContainer = styled.div`
 //   width: 100%;
@@ -25,28 +25,30 @@ import Button from '../src/components/Button';
 
 export default function Home() {
   const router = useRouter();
-  const [userName, setUsername ] = useState('');
+  const [userName, setUsername] = useState('');
   return (
     <>
-
+     
       <QuizBackground backgroundImage={db.bg}>
+        
         <QuizContainer>
+        <QuizLogo />
           <Widget>
             <Widget.Header>
               <h1>React AluraQuiz</h1>
             </Widget.Header>
             <Widget.Content>
-          <form onSubmit={(event) =>{
-                event.preventDefault(); 
+              <form onSubmit={(event) => {
+                event.preventDefault();
                 router.push(`/quiz?name=${userName}`)
-            }}>
-            <Input value={userName} type="text" placeholder="Diz ai seu nome" onChange={(e) => setUsername(e.target.value)}/>
-            <Button disabled={userName.length === 0}>
-                   Jogar {userName}
-            </Button>
-              
-            
-          </form>
+              }}>
+                <Input value={userName} type="text" placeholder="Diz ai seu nome" onChange={(e) => setUsername(e.target.value)} />
+                <Button disabled={userName.length === 0}>
+                  Jogar {userName}
+                </Button>
+
+
+              </form>
             </Widget.Content>
 
           </Widget>
