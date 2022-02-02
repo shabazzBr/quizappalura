@@ -1,4 +1,3 @@
-
 /* eslint-disable react/prop-types */
 import React from "react";
 import { useRouter } from "next/router";
@@ -8,6 +7,9 @@ import QuizContainer from '../src/components/QuizContainer';
 import QuizBackground from "../src/components/QuizBackground";
 import QuizLogo from "../src/components/QuizLogo";
 import Button from '../src/components/Button';
+import Image from "next/image";
+import loadImage from "../src/assets/img/giphy.gif";
+
 
 function LoadingWidget() {
     return (
@@ -17,7 +19,7 @@ function LoadingWidget() {
         </Widget.Header>
   
         <Widget.Content>
-          [Desafio do Loading]
+          <Image src={loadImage}/>
         </Widget.Content>
       </Widget>
     );
