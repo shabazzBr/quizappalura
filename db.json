@@ -49,12 +49,12 @@
   "theme": {
     "colors": {
       "primary": "#222222",
-      "secondary": "#e89c3f",
+      "secondary": "rgb(30,98,208)",
       "mainBg": "#212f4e",
-      "contrastText": "#FFFFFF",
+      "contrastText": "#f7faff",
       "wrong": "#FF5722",
       "success": "#4CAF50"
     },
-    "borderRadius": "4px"
+    "borderRadius": "8px"
   }
 }
