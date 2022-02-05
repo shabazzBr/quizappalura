@@ -2,8 +2,8 @@ import styled from "styled-components"
 import PropTypes from 'prop-types';
 
 const Button = styled.button`
-  background-color:rgb(29,15,255);
-  background: linear-gradient(90deg, rgba(29,15,255,1) 0%, rgba(255,0,129,1) 30%, rgba(2,2,115,1) 69%);
+  background: rgb(20,150,235);
+  background: linear-gradient(90deg, rgba(20,150,235,1) 0%, rgba(238,10,245,1) 50%, rgba(255,252,0,1) 100%);
   color: #FFFF;
   border-radius: ${({ theme }) => theme.borderRadius};
   border: 0;
@@ -24,10 +24,6 @@ const Button = styled.button`
     background-color: #979797;
     cursor: not-allowed;
   }
-
-
-
-
 
 
 `;

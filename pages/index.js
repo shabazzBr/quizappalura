@@ -28,11 +28,11 @@ export default function Home() {
   const [userName, setUsername] = useState('');
   return (
     <>
-     
+
       <QuizBackground backgroundImage={db.bg}>
-        
+
         <QuizContainer>
-        <QuizLogo />
+          <QuizLogo />
           <Widget>
             <Widget.Header>
               <h1>React AluraQuiz</h1>

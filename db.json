@@ -4,42 +4,47 @@
   "description": "Um quiz rápido sobre o mundo do JavaScript",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/j5P0DQIOf4PonLi55G/giphy.gif",
-      "title": "Qual a diferença entre = , == e === ?",
-      "description": "Pergunta fácil em!",
-      "answer": 1,
-      "alternatives": [
-        "São a mesma coisa",
-        "O = significa atribuição de valor. Já == verifica a igualdade do valor, enquanto === verifica valor e tipo de variável."
-      ]
-    },
-    {
-      "image": "https://media.giphy.com/media/Ie2Hs3A0uJRtK/giphy.gif",
-      "title": "Que tipos de dados são suportados em JavaScript?",
-      "description": "E agora? Você sabe?",
+      "image": "https://media3.giphy.com/media/JTOLm9KaR7NJn27lRj/giphy.gif?cid=790b761186d98dc3275a1aac19c292412a2c6a58968bf142&rid=giphy.gif&ct=s",
+      "title": "Qual a lib FrontEnd que é usada no My Drugs?",
+      "description": "DICA: Na verdade isso não é comentado na série, isso pode ser identificado nas cenas onde aparece o código do My Drugs",
       "answer": 0,
       "alternatives": [
-        "Number, String, Undefined, Null e Bool.",
-        "Int, String, Undefined, Null e Bool."
+        "Vue.js",
+        "A melhor de todos tempos, React.js ?",
+        "Angular.js ou Angular 2"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
-      "title": "Qual a diferença de window e global?",
+      "image": "https://media2.giphy.com/media/j52rJT6dGkw6Exl8jI/giphy.gif",
+      "title": "Qual ferramenta pelo Moritz para testar a performace do My Drugs na terceira temporada ?",
+      "description": "DICA: Vish, isso aqui também não é comentado na série, mas pode ser identificado assistindo o Moritz programar na terceira temporada.",
       "answer": 1,
       "alternatives": [
-        "São a mesma coisa",
-        "window é o escopo global no browser, e global no node"
+        "Selenium Webdriver",
+        "Cypress",
+        "Unit Test"
       ]
     },
     {
-      "image": "https://media.giphy.com/media/iI4vhciiVh2b3j9sgo/giphy.gif",
-      "title": "Qual a forma antiga de trabalhar com AJAX na Web?",
+      "image": "https://media3.giphy.com/media/j5cQtAxG1ZRF1DObYa/giphy.gif",
+      "title": "Qual é a tecnologia de criptografia usada no My Drugs que foi citada pelo Moritz na primeira temporada ?",
+      "description": "Dica:Isso foi citado pelo Moritz no segundo episódio da primeira temporada. ",
       "answer": 1,
       "alternatives": [
-        "JSONHttpRequest",
-        "XMLHttpRequest",
-        "fetch"
+        "LetsEncrypt",
+        "PGP",
+        "BlockChain"
+      ]
+    },
+    {
+      "image": "https://media.giphy.com/media/PiRC2Pnc5yEsPC9LZV/giphy.gif",
+      "title": "Qual é a Feature implementada no Mydrugs na terceira temporada pelo Lenny ?",
+      "description": "Dica: O Lenny não deveria ter ajudado o Moritz a melhorar o My Drugs na terceira temporada.",
+      "answer": 1,
+      "alternatives": [
+        "Páginação ampliada",
+        "SSR, x-powered-by pelo NerdRage ...etc",
+        "Wordpress"
       ]
     }
   ],
