@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React, { useLayoutEffect, useState } from "react";
+import React, { useState } from "react";
 import { useRouter } from "next/router";
 import db from '../db.json';
 import { Widget } from "../src/components/Widget";
@@ -139,7 +139,7 @@ function QuestionWidget({
                 >
                     {question.alternatives.map((alternative, alternativeIndex) => {
                         const alternativeId = `alternative__${alternativeIndex}`;
-                        const selectedAlternativeStatus = isCorrect ? 'SUCCESS':'ERROR';
+                        const selectedAlternativeStatus = isCorrect ? 'SUCCESS' : 'ERROR';
                         const isSelected = selectedAlternative === alternativeIndex;
 
                         return (
