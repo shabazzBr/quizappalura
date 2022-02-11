@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import Document from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 import React from 'react';

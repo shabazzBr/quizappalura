@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import React, { useState } from "react";
 import { useRouter } from "next/router";
 import db from '../db.json';
