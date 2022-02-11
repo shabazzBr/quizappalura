@@ -8,7 +8,6 @@
     "lint": "eslint  ./ --fix"
   },
   "dependencies": {
-    "@crello/react-lottie": "^0.0.11",
     "lodash": ">=4.17.21",
     "next": "latest",
     "npm": "^8.5.0",
