@@ -1,7 +1,7 @@
 import React from "react";
 import QuizScreen from "../../src/screens/Quiz";
 
-export function QuizDaGaleraPage({dbExterno}){
+export default function QuizDaGaleraPage({dbExterno}){
     // const [db, setDb] = useState({});
 
     return(
